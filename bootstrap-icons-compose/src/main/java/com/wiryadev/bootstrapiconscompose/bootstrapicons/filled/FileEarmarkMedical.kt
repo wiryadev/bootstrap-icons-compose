@@ -1,4 +1,4 @@
-package icons.bootstrapicons.filled
+package com.wiryadev.bootstrapiconscompose.bootstrapicons.filled
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
@@ -9,9 +9,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
-import icons.bootstrapicons.FilledGroup
 
-public val FilledGroup.FileEarmarkMedical: ImageVector
+public val FileEarmarkMedical: ImageVector
     get() {
         if (_fileEarmarkMedical != null) {
             return _fileEarmarkMedical!!
