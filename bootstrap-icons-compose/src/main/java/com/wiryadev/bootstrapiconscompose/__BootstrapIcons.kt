@@ -2,7 +2,7 @@ package com.wiryadev.bootstrapiconscompose
 
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.wiryadev.bootstrapiconscompose.bootstrapicons.AllAssets
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.Filled
+import Filled
 import com.wiryadev.bootstrapiconscompose.bootstrapicons.Normal
 import kotlin.collections.List as ____KtList
 

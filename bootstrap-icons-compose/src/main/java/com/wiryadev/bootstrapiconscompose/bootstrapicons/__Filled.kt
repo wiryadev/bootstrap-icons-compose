@@ -429,36 +429,36 @@ import SuitSpade
 import Sun
 import Sunrise
 import Sunset
-import icons.bootstrapicons.filled.Tablet
-import icons.bootstrapicons.filled.TabletLandscape
-import icons.bootstrapicons.filled.Tag
-import icons.bootstrapicons.filled.Tags
-import icons.bootstrapicons.filled.Telephone
-import icons.bootstrapicons.filled.TelephoneForward
-import icons.bootstrapicons.filled.TelephoneInbound
-import icons.bootstrapicons.filled.TelephoneMinus
-import icons.bootstrapicons.filled.TelephoneOutbound
-import icons.bootstrapicons.filled.TelephonePlus
-import icons.bootstrapicons.filled.TelephoneX
-import icons.bootstrapicons.filled.Terminal
-import icons.bootstrapicons.filled.Trash
-import icons.bootstrapicons.filled.Trash2
-import icons.bootstrapicons.filled.Tree
-import icons.bootstrapicons.filled.Triangle
-import icons.bootstrapicons.filled.Trophy
-import icons.bootstrapicons.filled.Tv
-import icons.bootstrapicons.filled.Umbrella
-import icons.bootstrapicons.filled.Unlock
-import icons.bootstrapicons.filled.Vinyl
-import icons.bootstrapicons.filled.VolumeDown
-import icons.bootstrapicons.filled.VolumeMute
-import icons.bootstrapicons.filled.VolumeOff
-import icons.bootstrapicons.filled.VolumeUp
-import icons.bootstrapicons.filled.Wallet
-import icons.bootstrapicons.filled.XCircle
-import icons.bootstrapicons.filled.XDiamond
-import icons.bootstrapicons.filled.XOctagon
-import icons.bootstrapicons.filled.XSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Tablet
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.TabletLandscape
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Tag
+import Tags
+import Telephone
+import TelephoneForward
+import TelephoneInbound
+import TelephoneMinus
+import TelephoneOutbound
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.TelephonePlus
+import TelephoneX
+import Terminal
+import Trash
+import Trash2
+import Tree
+import Triangle
+import Trophy
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Tv
+import Umbrella
+import Unlock
+import Vinyl
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.VolumeDown
+import VolumeMute
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.VolumeOff
+import VolumeUp
+import Wallet
+import XCircle
+import XDiamond
+import XOctagon
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.XSquare
 import kotlin.collections.List as ____KtList
 
 public object FilledGroup
@@ -536,6 +536,7 @@ public val FilledGroup.AllAssets: ____KtList<ImageVector>
         Sunset, Tablet, TabletLandscape, Tag, Tags, Telephone, TelephoneForward, TelephoneInbound,
         TelephoneMinus, TelephoneOutbound, TelephonePlus, TelephoneX, Terminal, Trash, Trash2, Tree,
         Triangle, Trophy, Tv, Umbrella, Unlock, Vinyl, VolumeDown, VolumeMute, VolumeOff, VolumeUp,
-        Wallet, XCircle, XDiamond, XOctagon, XSquare)
+        Wallet, XCircle, XDiamond, XOctagon, XSquare
+    )
     return __AllAssets!!
   }
