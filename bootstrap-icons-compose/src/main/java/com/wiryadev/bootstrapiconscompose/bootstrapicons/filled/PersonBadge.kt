@@ -1,4 +1,4 @@
-package icons.bootstrapicons.filled
+package com.wiryadev.bootstrapiconscompose.bootstrapicons.filled
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
@@ -9,9 +9,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val FilledGroup.PersonBadge: ImageVector
+public val PersonBadge: ImageVector
     get() {
         if (_personBadge != null) {
             return _personBadge!!
