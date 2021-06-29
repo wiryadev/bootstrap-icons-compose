@@ -4,7 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Icon
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -15,10 +18,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.Filled
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.Normal
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpCircle
 import com.wiryadev.bootstrapiconscompose.ui.theme.BootstrapIconsComposeTheme
-import icons.bootstrapicons.Filled
-import icons.bootstrapicons.Normal
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.FileImage
 import icons.bootstrapicons.normal.FileImage
 
 class MainActivity : ComponentActivity() {
@@ -44,7 +47,7 @@ fun TestIcon() {
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             Icon(
-                imageVector = BootstrapIcons.Filled.FileImage,
+                imageVector = BootstrapIcons.Filled.ArrowUpCircle,
                 contentDescription = "FileImage Fill",
                 tint = Color.Green,
                 modifier = Modifier

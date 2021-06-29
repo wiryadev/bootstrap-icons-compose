@@ -1,4 +1,4 @@
-package icons.bootstrapicons
+package com.wiryadev.bootstrapiconscompose.bootstrapicons
 
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.wiryadev.bootstrapiconscompose.BootstrapIcons

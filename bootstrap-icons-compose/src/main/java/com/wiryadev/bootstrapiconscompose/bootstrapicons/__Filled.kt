@@ -1,26 +1,26 @@
-package icons.bootstrapicons
+package com.wiryadev.bootstrapiconscompose.bootstrapicons
 
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.wiryadev.bootstrapiconscompose.BootstrapIcons
 import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Alarm
 import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Archive
-import icons.bootstrapicons.filled.ArrowDownCircle
-import icons.bootstrapicons.filled.ArrowDownLeftCircle
-import icons.bootstrapicons.filled.ArrowDownLeftSquare
-import icons.bootstrapicons.filled.ArrowDownRightCircle
-import icons.bootstrapicons.filled.ArrowDownRightSquare
-import icons.bootstrapicons.filled.ArrowDownSquare
-import icons.bootstrapicons.filled.ArrowLeftCircle
-import icons.bootstrapicons.filled.ArrowLeftSquare
-import icons.bootstrapicons.filled.ArrowRightCircle
-import icons.bootstrapicons.filled.ArrowRightSquare
-import icons.bootstrapicons.filled.ArrowUpCircle
-import icons.bootstrapicons.filled.ArrowUpLeftCircle
-import icons.bootstrapicons.filled.ArrowUpLeftSquare
-import icons.bootstrapicons.filled.ArrowUpRightCircle
-import icons.bootstrapicons.filled.ArrowUpRightSquare
-import icons.bootstrapicons.filled.ArrowUpSquare
-import icons.bootstrapicons.filled.AspectRatio
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownLeftCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownLeftSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownRightCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownRightSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowLeftCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowLeftSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowRightCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowRightSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpLeftCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpLeftSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpRightCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpRightSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.AspectRatio
 import icons.bootstrapicons.filled.Award
 import icons.bootstrapicons.filled.Backspace
 import icons.bootstrapicons.filled.BackspaceReverse
@@ -476,7 +476,7 @@ public val FilledGroup.AllAssets: ____KtList<ImageVector>
     if (__AllAssets != null) {
       return __AllAssets!!
     }
-    __AllAssets= listOf(Alarm, Archive, ArrowDownCircle, ArrowDownLeftCircle, ArrowDownLeftSquare,
+    __AllAssets = listOf(Alarm, Archive, ArrowDownCircle, ArrowDownLeftCircle, ArrowDownLeftSquare,
         ArrowDownRightCircle, ArrowDownRightSquare, ArrowDownSquare, ArrowLeftCircle,
         ArrowLeftSquare, ArrowRightCircle, ArrowRightSquare, ArrowUpCircle, ArrowUpLeftCircle,
         ArrowUpLeftSquare, ArrowUpRightCircle, ArrowUpRightSquare, ArrowUpSquare, AspectRatio,

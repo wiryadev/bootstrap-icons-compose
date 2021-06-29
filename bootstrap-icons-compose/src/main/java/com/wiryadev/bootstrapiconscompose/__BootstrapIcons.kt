@@ -1,9 +1,9 @@
 package com.wiryadev.bootstrapiconscompose
 
 import androidx.compose.ui.graphics.vector.ImageVector
-import icons.bootstrapicons.AllAssets
-import icons.bootstrapicons.Filled
-import icons.bootstrapicons.Normal
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.AllAssets
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.Filled
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.Normal
 import kotlin.collections.List as ____KtList
 
 public object BootstrapIcons

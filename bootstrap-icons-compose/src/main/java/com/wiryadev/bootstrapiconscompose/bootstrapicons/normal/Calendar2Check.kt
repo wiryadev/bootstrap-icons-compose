@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
-import icons.bootstrapicons.NormalGroup
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.NormalGroup
 
 public val NormalGroup.Calendar2Check: ImageVector
     get() {
