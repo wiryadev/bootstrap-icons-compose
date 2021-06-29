@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val CloudHaze2: ImageVector
+public val FilledGroup.CloudHaze2: ImageVector
     get() {
         if (_cloudHaze2 != null) {
             return _cloudHaze2!!

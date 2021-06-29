@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val FileEarmarkWord: ImageVector
+public val FilledGroup.FileEarmarkWord: ImageVector
     get() {
         if (_fileEarmarkWord != null) {
             return _fileEarmarkWord!!

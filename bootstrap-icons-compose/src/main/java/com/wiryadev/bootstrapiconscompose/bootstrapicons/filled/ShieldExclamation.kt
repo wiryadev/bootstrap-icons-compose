@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val ShieldExclamation: ImageVector
+public val FilledGroup.ShieldExclamation: ImageVector
     get() {
         if (_shieldExclamation != null) {
             return _shieldExclamation!!

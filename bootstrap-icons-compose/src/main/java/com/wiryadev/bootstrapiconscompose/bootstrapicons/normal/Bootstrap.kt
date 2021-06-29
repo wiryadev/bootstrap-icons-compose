@@ -1,4 +1,4 @@
-package icons.bootstrapicons.normal
+package com.wiryadev.bootstrapiconscompose.bootstrapicons.normal
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
-import icons.bootstrapicons.NormalGroup
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.NormalGroup
 
 public val NormalGroup.Bootstrap: ImageVector
     get() {

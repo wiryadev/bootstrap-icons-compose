@@ -15,13 +15,12 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import Normal
-import ArrowUpCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.Filled
 import com.wiryadev.bootstrapiconscompose.bootstrapicons.Normal
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.XSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.normal.Youtube
 import com.wiryadev.bootstrapiconscompose.ui.theme.BootstrapIconsComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -47,22 +46,18 @@ fun TestIcon() {
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             Icon(
-                imageVector = BootstrapIcons,
+                imageVector = BootstrapIcons.Filled.XSquare,
                 contentDescription = "FileImage Fill",
-                tint = Color.Green,
                 modifier = Modifier
-                    .background(Color.Black)
+            )
+            Icon(
+                imageVector = BootstrapIcons.Normal.Youtube,
+                contentDescription = "FileImage Fill",
+                modifier = Modifier
             )
             Icon(
                 imageVector = Icons.Default.Clear,
                 contentDescription = "FileImage Fill",
-                tint = Color.Green,
-            )
-            Icon(
-                imageVector = Normal.FileImage,
-                contentDescription = "FileImage Fill",
-                tint = Color.Green,
-                modifier = Modifier.background(Color.Black)
             )
         }
     }

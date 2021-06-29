@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val PhoneVibrate: ImageVector
+public val FilledGroup.PhoneVibrate: ImageVector
     get() {
         if (_phoneVibrate != null) {
             return _phoneVibrate!!

@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val VolumeMute: ImageVector
+public val FilledGroup.VolumeMute: ImageVector
     get() {
         if (_volumeMute != null) {
             return _volumeMute!!

@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val Calendar2Range: ImageVector
+public val FilledGroup.Calendar2Range: ImageVector
     get() {
         if (_calendar2Range != null) {
             return _calendar2Range!!

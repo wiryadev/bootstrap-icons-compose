@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val ExclamationDiamond: ImageVector
+public val FilledGroup.ExclamationDiamond: ImageVector
     get() {
         if (_exclamationDiamond != null) {
             return _exclamationDiamond!!

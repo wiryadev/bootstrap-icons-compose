@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val CreditCard2Front: ImageVector
+public val FilledGroup.CreditCard2Front: ImageVector
     get() {
         if (_creditCard2Front != null) {
             return _creditCard2Front!!

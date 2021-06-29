@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val HandThumbsUp: ImageVector
+public val FilledGroup.HandThumbsUp: ImageVector
     get() {
         if (_handThumbsUp != null) {
             return _handThumbsUp!!

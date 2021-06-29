@@ -1,4 +1,4 @@
-package icons.bootstrapicons.normal
+package com.wiryadev.bootstrapiconscompose.bootstrapicons.normal
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero

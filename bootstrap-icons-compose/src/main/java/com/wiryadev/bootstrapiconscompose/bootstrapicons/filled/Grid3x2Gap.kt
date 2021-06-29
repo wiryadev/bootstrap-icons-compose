@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val Grid3x2Gap: ImageVector
+public val FilledGroup.Grid3x2Gap: ImageVector
     get() {
         if (_grid3x2Gap != null) {
             return _grid3x2Gap!!

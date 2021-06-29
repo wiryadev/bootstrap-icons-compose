@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val PiggyBank: ImageVector
+public val FilledGroup.PiggyBank: ImageVector
     get() {
         if (_piggyBank != null) {
             return _piggyBank!!

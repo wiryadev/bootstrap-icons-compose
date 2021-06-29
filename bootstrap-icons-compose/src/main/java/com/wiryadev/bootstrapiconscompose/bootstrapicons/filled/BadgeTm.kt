@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val BadgeTm: ImageVector
+public val FilledGroup.BadgeTm: ImageVector
     get() {
         if (_badgeTm != null) {
             return _badgeTm!!

@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val BrightnessAltLow: ImageVector
+public val FilledGroup.BrightnessAltLow: ImageVector
     get() {
         if (_brightnessAltLow != null) {
             return _brightnessAltLow!!

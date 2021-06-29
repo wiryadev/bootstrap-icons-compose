@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val CloudFog2: ImageVector
+public val FilledGroup.CloudFog2: ImageVector
     get() {
         if (_cloudFog2 != null) {
             return _cloudFog2!!

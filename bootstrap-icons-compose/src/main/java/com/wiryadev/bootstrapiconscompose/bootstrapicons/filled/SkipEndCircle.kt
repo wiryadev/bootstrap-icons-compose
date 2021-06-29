@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val SkipEndCircle: ImageVector
+public val FilledGroup.SkipEndCircle: ImageVector
     get() {
         if (_skipEndCircle != null) {
             return _skipEndCircle!!

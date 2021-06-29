@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val TelephoneInbound: ImageVector
+public val FilledGroup.TelephoneInbound: ImageVector
     get() {
         if (_telephoneInbound != null) {
             return _telephoneInbound!!

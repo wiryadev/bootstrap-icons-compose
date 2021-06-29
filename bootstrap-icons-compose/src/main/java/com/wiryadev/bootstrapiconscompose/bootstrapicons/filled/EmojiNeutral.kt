@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val EmojiNeutral: ImageVector
+public val FilledGroup.EmojiNeutral: ImageVector
     get() {
         if (_emojiNeutral != null) {
             return _emojiNeutral!!

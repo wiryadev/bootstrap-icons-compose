@@ -9,8 +9,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val CloudRainHeavy: ImageVector
+public val FilledGroup.CloudRainHeavy: ImageVector
     get() {
         if (_cloudRainHeavy != null) {
             return _cloudRainHeavy!!
