@@ -1,4 +1,4 @@
-package icons.bootstrapicons.filled
+package com.wiryadev.bootstrapiconscompose.bootstrapicons.filled
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
@@ -9,9 +9,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val FilledGroup.ChatLeftDots: ImageVector
+public val ChatLeftDots: ImageVector
     get() {
         if (_chatLeftDots != null) {
             return _chatLeftDots!!
