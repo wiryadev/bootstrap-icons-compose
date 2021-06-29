@@ -1,71 +1,69 @@
 package com.wiryadev.bootstrapiconscompose.bootstrapicons
 
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.wiryadev.bootstrapiconscompose.BootstrapIcons
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Alarm
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Archive
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownCircle
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownLeftCircle
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownLeftSquare
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownRightCircle
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownRightSquare
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowDownSquare
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowLeftCircle
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowLeftSquare
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowRightCircle
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowRightSquare
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpCircle
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpLeftCircle
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpLeftSquare
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpRightCircle
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpRightSquare
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpSquare
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.AspectRatio
-import icons.bootstrapicons.filled.Award
-import icons.bootstrapicons.filled.Backspace
-import icons.bootstrapicons.filled.BackspaceReverse
-import icons.bootstrapicons.filled.Badge3d
-import icons.bootstrapicons.filled.Badge4k
-import icons.bootstrapicons.filled.Badge8k
-import icons.bootstrapicons.filled.BadgeAd
-import icons.bootstrapicons.filled.BadgeAr
-import icons.bootstrapicons.filled.BadgeCc
-import icons.bootstrapicons.filled.BadgeHd
-import icons.bootstrapicons.filled.BadgeTm
-import icons.bootstrapicons.filled.BadgeVo
-import icons.bootstrapicons.filled.BadgeVr
-import icons.bootstrapicons.filled.BadgeWc
-import icons.bootstrapicons.filled.Bag
-import icons.bootstrapicons.filled.BagCheck
-import icons.bootstrapicons.filled.BagDash
-import icons.bootstrapicons.filled.BagPlus
-import icons.bootstrapicons.filled.BagX
-import icons.bootstrapicons.filled.BarChart
-import icons.bootstrapicons.filled.BarChartLine
-import icons.bootstrapicons.filled.Basket
-import icons.bootstrapicons.filled.Basket2
-import icons.bootstrapicons.filled.Basket3
-import icons.bootstrapicons.filled.Bell
-import icons.bootstrapicons.filled.BellSlash
-import icons.bootstrapicons.filled.Binoculars
-import icons.bootstrapicons.filled.Book
-import icons.bootstrapicons.filled.Bookmark
-import icons.bootstrapicons.filled.BookmarkCheck
-import icons.bootstrapicons.filled.BookmarkDash
-import icons.bootstrapicons.filled.BookmarkHeart
-import icons.bootstrapicons.filled.BookmarkPlus
-import icons.bootstrapicons.filled.BookmarkStar
-import icons.bootstrapicons.filled.BookmarkX
-import icons.bootstrapicons.filled.Bookmarks
-import icons.bootstrapicons.filled.Bootstrap
-import icons.bootstrapicons.filled.Briefcase
-import icons.bootstrapicons.filled.BrightnessAltHigh
-import icons.bootstrapicons.filled.BrightnessAltLow
-import icons.bootstrapicons.filled.BrightnessHigh
-import icons.bootstrapicons.filled.BrightnessLow
-import icons.bootstrapicons.filled.Brush
-import icons.bootstrapicons.filled.Bucket
-import icons.bootstrapicons.filled.Bug
+import Archive
+import ArrowDownCircle
+import ArrowDownLeftCircle
+import ArrowDownLeftSquare
+import ArrowDownRightCircle
+import ArrowDownRightSquare
+import ArrowDownSquare
+import ArrowLeftCircle
+import ArrowLeftSquare
+import ArrowRightCircle
+import ArrowRightSquare
+import ArrowUpCircle
+import ArrowUpLeftCircle
+import ArrowUpLeftSquare
+import ArrowUpRightCircle
+import ArrowUpRightSquare
+import ArrowUpSquare
+import AspectRatio
+import Award
+import Backspace
+import BackspaceReverse
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Badge3d
+import Badge4k
+import Badge8k
+import BadgeAd
+import BadgeAr
+import BadgeCc
+import BadgeHd
+import BadgeTm
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.BadgeVo
+import BadgeVr
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.BadgeWc
+import Bag
+import BagCheck
+import BagDash
+import BagPlus
+import BagX
+import BarChart
+import BarChartLine
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Basket
+import Basket2
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Basket3
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Bell
+import BellSlash
+import Binoculars
+import Book
+import Bookmark
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.BookmarkCheck
+import BookmarkDash
+import BookmarkHeart
+import BookmarkPlus
+import BookmarkStar
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.BookmarkX
+import Bookmarks
+import Bootstrap
+import Briefcase
+import BrightnessAltHigh
+import BrightnessAltLow
+import BrightnessHigh
+import BrightnessLow
+import Brush
+import Bucket
+import Bug
 import icons.bootstrapicons.filled.Calculator
 import icons.bootstrapicons.filled.Calendar
 import icons.bootstrapicons.filled.Calendar2
@@ -249,7 +247,8 @@ import icons.bootstrapicons.filled.FileEarmarkZip
 import icons.bootstrapicons.filled.FileEasel
 import icons.bootstrapicons.filled.FileExcel
 import icons.bootstrapicons.filled.FileFont
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.FileImage
+import FileImage
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.Alarm
 import icons.bootstrapicons.filled.FileLock
 import icons.bootstrapicons.filled.FileLock2
 import icons.bootstrapicons.filled.FileMedical
@@ -466,7 +465,7 @@ import kotlin.collections.List as ____KtList
 
 public object FilledGroup
 
-public val BootstrapIcons.Filled: FilledGroup
+public val Filled: FilledGroup
   get() = FilledGroup
 
 private var __AllAssets: ____KtList<ImageVector>? = null
@@ -476,7 +475,8 @@ public val FilledGroup.AllAssets: ____KtList<ImageVector>
     if (__AllAssets != null) {
       return __AllAssets!!
     }
-    __AllAssets = listOf(Alarm, Archive, ArrowDownCircle, ArrowDownLeftCircle, ArrowDownLeftSquare,
+    __AllAssets = listOf(
+        Alarm, Archive, ArrowDownCircle, ArrowDownLeftCircle, ArrowDownLeftSquare,
         ArrowDownRightCircle, ArrowDownRightSquare, ArrowDownSquare, ArrowLeftCircle,
         ArrowLeftSquare, ArrowRightCircle, ArrowRightSquare, ArrowUpCircle, ArrowUpLeftCircle,
         ArrowUpLeftSquare, ArrowUpRightCircle, ArrowUpRightSquare, ArrowUpSquare, AspectRatio,

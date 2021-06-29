@@ -9,9 +9,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val FilledGroup.FileImage: ImageVector
+public val FileImage: ImageVector
     get() {
         if (_fileImage != null) {
             return _fileImage!!

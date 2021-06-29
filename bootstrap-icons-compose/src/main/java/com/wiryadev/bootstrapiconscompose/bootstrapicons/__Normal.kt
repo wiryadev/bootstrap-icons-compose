@@ -1,7 +1,6 @@
 package com.wiryadev.bootstrapiconscompose.bootstrapicons
 
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.wiryadev.bootstrapiconscompose.BootstrapIcons
 import icons.bootstrapicons.normal.Alarm
 import icons.bootstrapicons.normal.AlignBottom
 import icons.bootstrapicons.normal.AlignCenter
@@ -916,7 +915,7 @@ import kotlin.collections.List as ____KtList
 
 public object NormalGroup
 
-public val BootstrapIcons.Normal: NormalGroup
+public val Normal: NormalGroup
   get() = NormalGroup
 
 private var __AllAssets: ____KtList<ImageVector>? = null

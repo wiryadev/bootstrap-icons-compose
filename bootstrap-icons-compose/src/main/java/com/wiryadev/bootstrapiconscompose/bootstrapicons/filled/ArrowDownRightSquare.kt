@@ -9,9 +9,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.FilledGroup
 
-public val FilledGroup.ArrowDownRightSquare: ImageVector
+public val ArrowDownRightSquare: ImageVector
     get() {
         if (_arrowDownRightSquare != null) {
             return _arrowDownRightSquare!!

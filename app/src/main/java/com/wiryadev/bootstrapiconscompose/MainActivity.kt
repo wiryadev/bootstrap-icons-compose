@@ -18,11 +18,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.Filled
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.Normal
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpCircle
+import Normal
+import ArrowUpCircle
 import com.wiryadev.bootstrapiconscompose.ui.theme.BootstrapIconsComposeTheme
-import icons.bootstrapicons.normal.FileImage
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,7 +45,7 @@ fun TestIcon() {
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             Icon(
-                imageVector = BootstrapIcons.Filled.ArrowUpCircle,
+                imageVector = ArrowUpCircle,
                 contentDescription = "FileImage Fill",
                 tint = Color.Green,
                 modifier = Modifier
@@ -59,7 +57,7 @@ fun TestIcon() {
                 tint = Color.Green,
             )
             Icon(
-                imageVector = BootstrapIcons.Normal.FileImage,
+                imageVector = Normal.FileImage,
                 contentDescription = "FileImage Fill",
                 tint = Color.Green,
                 modifier = Modifier.background(Color.Black)
