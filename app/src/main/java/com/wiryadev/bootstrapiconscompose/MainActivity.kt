@@ -20,6 +20,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import Normal
 import ArrowUpCircle
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.Normal
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.ArrowUpCircle
 import com.wiryadev.bootstrapiconscompose.ui.theme.BootstrapIconsComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -45,7 +47,7 @@ fun TestIcon() {
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             Icon(
-                imageVector = ArrowUpCircle,
+                imageVector = BootstrapIcons,
                 contentDescription = "FileImage Fill",
                 tint = Color.Green,
                 modifier = Modifier
