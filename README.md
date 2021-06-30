@@ -21,7 +21,7 @@ allprojects {
 Add dependency to app level build.gradle
 ```
 dependencies {
-    implementation 'com.github.wiryadev:BootstrapIconsCompose:0.1.0'
+    implementation 'com.github.wiryadev:BootstrapIconsCompose:<version>'
 }
 ```
 
