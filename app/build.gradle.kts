@@ -58,5 +58,9 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:${rootProject.extra["composeVersion"]}")
 
+    val accompanistVersion = "0.12.0"
+    implementation("com.google.accompanist:accompanist-insets:$accompanistVersion")
+    implementation("com.google.accompanist:accompanist-insets-ui:$accompanistVersion")
+
     implementation(project(":bootstrap-icons-compose"))
 }
