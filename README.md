@@ -1,8 +1,7 @@
 # BootstrapIconsCompose
-Bootstrap icons pack for Jetpack Compose. This library is inspired by [compose-icons](https://github.com/DevSrSouza/compose-icons) and [FontAwesomeCompose](https://github.com/Gurupreet/FontAwesomeCompose). [svg-to-compose](https://github.com/DevSrSouza/svg-to-compose) is used to converts SVG to Compose code.
+BootstrapIconsCompose is [Bootstrap icons](https://github.com/twbs/icons) pack for Jetpack Compose. This library is inspired by [compose-icons](https://github.com/DevSrSouza/compose-icons) and [FontAwesomeCompose](https://github.com/Gurupreet/FontAwesomeCompose). [svg-to-compose](https://github.com/DevSrSouza/svg-to-compose) is used to converts SVG to Compose code.
 
 ## Demo App
-<!-- ![Demo App](https://user-images.githubusercontent.com/26060382/123915179-6bbabd00-d9aa-11eb-9691-a46182700eb4.PNG | width=960) -->
 <img src="https://user-images.githubusercontent.com/26060382/123915179-6bbabd00-d9aa-11eb-9691-a46182700eb4.PNG" height="840">
 
 #### Check the demo [here](https://github.com/wiryadev/BootstrapIconsCompose/blob/master/app/src/main/java/com/wiryadev/bootstrapiconscompose/MainActivity.kt)
@@ -26,3 +25,6 @@ You can use it with default `Icon` composable, but the size will be defaulting t
 ```
 Icon(imageVector = BootstrapIcons.Normal.Alarm, contentDescription = "Alarm")
 ```
+
+## License
+For more info about Bootstrap icons license, check the official copyright [here](https://github.com/twbs/icons/blob/main/LICENSE.md).
