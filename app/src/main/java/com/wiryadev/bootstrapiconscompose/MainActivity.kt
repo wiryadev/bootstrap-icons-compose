@@ -233,8 +233,8 @@ fun TintedIcons() {
         title = "Tinted Icons"
     ) {
         BsIcon(bsIcon = BootstrapIcons.Normal.Github, tint = Color.Unspecified)
-        BsIcon(bsIcon = BootstrapIcons.Normal.Whatsapp, tint = Color.Green)
-        BsIcon(bsIcon = BootstrapIcons.Normal.Facebook, tint = Color.Blue)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Whatsapp, tint = Color(0xFF25D366))
+        BsIcon(bsIcon = BootstrapIcons.Normal.Facebook, tint = Color(0xFF4267B2))
         BsIcon(bsIcon = BootstrapIcons.Normal.Instagram, tint = MaterialTheme.colors.primary)
         BsIcon(bsIcon = BootstrapIcons.Normal.Youtube, tint = Color.Red)
     }
