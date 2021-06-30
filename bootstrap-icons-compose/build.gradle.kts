@@ -1,6 +1,20 @@
 plugins {
     id("com.android.library")
     id("kotlin-android")
+    id("maven-publish")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.wiryadev"
+                artifactId = "bootstrap-icons-compose"
+                version = "0.1.0"
+            }
+        }
+    }
 }
 
 android {
