@@ -9,6 +9,8 @@ BootstrapIconsCompose is [Bootstrap icons](https://github.com/twbs/icons) pack f
 #### Check the demo [here](https://github.com/wiryadev/BootstrapIconsCompose/blob/master/app/src/main/java/com/wiryadev/bootstrapiconscompose/MainActivity.kt)
 
 ## How to
+
+#### Add JitPack
 Add it in project level build.gradle
 ```
 allprojects {
@@ -18,10 +20,21 @@ allprojects {
 	}
 }
 ```
-Add dependency to app level build.gradle
+<b>or</b> add it to settings.gradle
+```
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+    	...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+## Add dependency 
+Add it to app level build.gradle
 ```
 dependencies {
-    implementation 'com.github.wiryadev:BootstrapIconsCompose:<version>'
+	implementation 'com.github.wiryadev:BootstrapIconsCompose:<version>'
 }
 ```
 
