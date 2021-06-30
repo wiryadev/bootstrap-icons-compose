@@ -9,6 +9,12 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.Phone
+import androidx.compose.material.icons.outlined.AccountBox
+import androidx.compose.material.icons.outlined.Favorite
+import androidx.compose.material.icons.outlined.ShoppingCart
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
@@ -243,7 +249,7 @@ fun TintedIcons() {
 @Composable
 fun ButtonIcons() {
     CommonIconDemoLayout(
-        title = "Normal Icons"
+        title = "Button Icons"
     ) {
         val iconButtonBackground = Modifier.background(
             brush = Brush.linearGradient(
@@ -288,6 +294,98 @@ fun ButtonIcons() {
     }
 }
 
+@Composable
+fun VariousSizeIcons() {
+    CommonIconDemoLayout(
+        title = "Various Size Icons (in Dp)"
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(text = "16.dp")
+            Spacer(modifier = Modifier.height(6.dp))
+            BsIcon(bsIcon = BootstrapIcons.Filled.Mic, size = 16.dp)
+        }
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(text = "24.dp")
+            Spacer(modifier = Modifier.height(6.dp))
+            BsIcon(bsIcon = BootstrapIcons.Filled.Mic)
+        }
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(text = "32.dp")
+            Spacer(modifier = Modifier.height(6.dp))
+            BsIcon(bsIcon = BootstrapIcons.Filled.Mic, size = 32.dp)
+        }
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(text = "48.dp")
+            Spacer(modifier = Modifier.height(6.dp))
+            BsIcon(bsIcon = BootstrapIcons.Filled.Mic, size = 48.dp)
+        }
+    }
+}
+
+@Composable
+fun BootstrapVsMaterialIcons() {
+    CommonIconDemoLayout(
+        title = "Bootstrap (Top) vs Material (Bottom) Icons"
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Filled.Heart)
+            Spacer(modifier = Modifier.height(6.dp))
+            Icon(imageVector = Icons.Outlined.Favorite, contentDescription = "")
+        }
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Normal.Cart)
+            Spacer(modifier = Modifier.height(6.dp))
+            Icon(imageVector = Icons.Outlined.ShoppingCart, contentDescription = "")
+        }
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Filled.Lock)
+            Spacer(modifier = Modifier.height(6.dp))
+            Icon(imageVector = Icons.Filled.Lock, contentDescription = "")
+        }
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Normal.PersonSquare)
+            Spacer(modifier = Modifier.height(6.dp))
+            Icon(imageVector = Icons.Outlined.AccountBox, contentDescription = "")
+        }
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Filled.Telephone)
+            Spacer(modifier = Modifier.height(6.dp))
+            Icon(imageVector = Icons.Filled.Phone, contentDescription = "")
+        }
+    }
+}
+
+@Composable
+fun UseDefaultIconComposable() {
+    CommonIconDemoLayout(
+        title = "Using default Icon composable"
+    ) {
+        Icon(imageVector = BootstrapIcons.Normal.Alarm, contentDescription = "")
+        Icon(imageVector = BootstrapIcons.Normal.Archive, contentDescription = "")
+        Icon(imageVector = BootstrapIcons.Normal.Badge8k, contentDescription = "")
+        Icon(imageVector = BootstrapIcons.Normal.BarChart, contentDescription = "")
+        Icon(imageVector = BootstrapIcons.Normal.CreditCard, contentDescription = "")
+    }
+}
+
 @Preview(showBackground = true)
 @Composable
 fun HomeScreen(
@@ -312,6 +410,12 @@ fun HomeScreen(
             item { BrandIcons() }
             item { TintedIcons() }
             item { ButtonIcons() }
+            item { VariousSizeIcons() }
+            item { BootstrapVsMaterialIcons() }
+            item { UseDefaultIconComposable() }
+            item {
+                Spacer(Modifier.statusBarsHeight(additional = 24.dp))
+            }
         }
         IconsWithActionBar()
     }
