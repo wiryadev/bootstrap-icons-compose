@@ -6,6 +6,23 @@ BootstrapIconsCompose is [Bootstrap icons](https://github.com/twbs/icons) pack f
 
 #### Check the demo [here](https://github.com/wiryadev/BootstrapIconsCompose/blob/master/app/src/main/java/com/wiryadev/bootstrapiconscompose/MainActivity.kt)
 
+## How to
+Add it in project level build.gradle
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+Add dependency to app level build.gradle
+```
+dependencies {
+    implementation 'com.github.wiryadev:BootstrapIconsCompose:0.1.0'
+}
+```
+
 ## Usage
 BsIcon composable is provided to make sure streamline size with Material Icons, default Icon composable is used underneath.
 ```
