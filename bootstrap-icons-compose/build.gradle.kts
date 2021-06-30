@@ -49,6 +49,7 @@ android {
     }
     composeOptions {
         kotlinCompilerExtensionVersion = rootProject.extra["composeVersion"] as String
+        kotlinCompilerVersion = "1.5.10"
     }
 }
 
