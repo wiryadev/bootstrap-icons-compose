@@ -4,22 +4,20 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.Icon
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.wiryadev.bootstrapiconscompose.bootstrapicons.Filled
 import com.wiryadev.bootstrapiconscompose.bootstrapicons.Normal
-import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.XSquare
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.filled.*
+import com.wiryadev.bootstrapiconscompose.bootstrapicons.normal.Bell
 import com.wiryadev.bootstrapiconscompose.bootstrapicons.normal.Youtube
 import com.wiryadev.bootstrapiconscompose.ui.theme.BootstrapIconsComposeTheme
 
@@ -39,7 +37,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TestIcon() {
     Column(
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier
+            .fillMaxSize()
             .background(MaterialTheme.colors.surface)
     ) {
         Row(
@@ -59,14 +58,106 @@ fun TestIcon() {
                 imageVector = Icons.Default.Clear,
                 contentDescription = "FileImage Fill",
             )
+            BsIcon(
+                bsIcon = BootstrapIcons.Filled.XSquare,
+                contentDescription = "FileImage Fill",
+            )
+        }
+    }
+}
+
+@Composable
+fun IconsWithBottomBar() {
+    BottomNavigation {
+        BottomNavigationItem(
+            selected = true,
+            onClick = { },
+            icon = {
+                BsIcon(
+                    bsIcon = BootstrapIcons.Filled.House,
+                    contentDescription = "Home"
+                )
+            },
+            label = {
+                Text(text = "Home")
+            }
+        )
+        BottomNavigationItem(
+            selected = true,
+            onClick = { },
+            icon = {
+                BsIcon(
+                    bsIcon = BootstrapIcons.Filled.Grid1x2,
+                    contentDescription = "Discover"
+                )
+            },
+            label = {
+                Text(text = "Discover")
+            }
+        )
+        BottomNavigationItem(
+            selected = true,
+            onClick = { },
+            icon = {
+                BsIcon(
+                    bsIcon = BootstrapIcons.Filled.ChatLeft,
+                    contentDescription = "Message"
+                )
+            },
+            label = {
+                Text(text = "Message")
+            }
+        )
+        BottomNavigationItem(
+            selected = true,
+            onClick = { },
+            icon = {
+                BsIcon(
+                    bsIcon = BootstrapIcons.Filled.Person,
+                    contentDescription = "Profile"
+                )
+            },
+            label = {
+                Text(text = "Profile")
+            }
+        )
+    }
+}
+
+@Preview
+@Composable
+fun IconsWithActionBar() {
+    TopAppBar(
+        backgroundColor = MaterialTheme.colors.background,
+        contentColor = MaterialTheme.colors.onBackground,
+    ) {
+        Text(
+            text = "Bootstrap Icon Demo",
+            style = MaterialTheme.typography.subtitle1,
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis,
+            modifier = Modifier
+                .weight(1f)
+                .align(Alignment.CenterVertically)
+        )
+        IconButton(
+            onClick = { },
+            modifier = Modifier.align(Alignment.CenterVertically)
+        ) {
+            BsIcon(
+                bsIcon = BootstrapIcons.Normal.Bell,
+                contentDescription = "Notification"
+            )
         }
     }
 }
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {
-    BootstrapIconsComposeTheme {
-        TestIcon()
+fun HomeScreen() {
+    Box {
+        Column {
+        }
+        IconsWithBottomBar()
     }
 }
