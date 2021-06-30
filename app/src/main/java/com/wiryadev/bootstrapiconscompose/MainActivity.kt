@@ -4,20 +4,15 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.selection.selectableGroup
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Clear
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.ProvidedValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
@@ -52,6 +47,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Preview
 @Composable
 fun IconsWithBottomBar() {
     CompositionLocalProvider(
@@ -189,6 +185,7 @@ fun CommonIconDemoLayout(
         }
     }
 }
+
 @Composable
 fun NormalIcons() {
     CommonIconDemoLayout(
@@ -216,6 +213,81 @@ fun FilledIcons() {
     }
 }
 
+// Icons for brand is within Normal package
+@Composable
+fun BrandIcons() {
+    CommonIconDemoLayout(
+        title = "Brand Icons"
+    ) {
+        BsIcon(bsIcon = BootstrapIcons.Normal.Github)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Whatsapp)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Facebook)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Instagram)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Youtube)
+    }
+}
+
+@Composable
+fun TintedIcons() {
+    CommonIconDemoLayout(
+        title = "Tinted Icons"
+    ) {
+        BsIcon(bsIcon = BootstrapIcons.Normal.Github, tint = Color.Unspecified)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Whatsapp, tint = Color.Green)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Facebook, tint = Color.Blue)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Instagram, tint = MaterialTheme.colors.primary)
+        BsIcon(bsIcon = BootstrapIcons.Normal.Youtube, tint = Color.Red)
+    }
+}
+
+@Composable
+fun ButtonIcons() {
+    CommonIconDemoLayout(
+        title = "Normal Icons"
+    ) {
+        val iconButtonBackground = Modifier.background(
+            brush = Brush.linearGradient(
+                listOf(
+                    Purple200,
+                    Purple500,
+                )
+            ),
+            shape = CircleShape,
+        )
+
+        IconButton(
+            onClick = { },
+            modifier = iconButtonBackground,
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Filled.Alarm, tint = MaterialTheme.colors.onPrimary)
+        }
+        IconButton(
+            onClick = { },
+            modifier = iconButtonBackground,
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Normal.Archive, tint = MaterialTheme.colors.onPrimary)
+        }
+        IconButton(
+            onClick = { },
+            modifier = iconButtonBackground,
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Filled.Badge8k, tint = MaterialTheme.colors.onPrimary)
+        }
+        IconButton(
+            onClick = { },
+            modifier = iconButtonBackground,
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Normal.BarChart, tint = MaterialTheme.colors.onPrimary)
+        }
+        IconButton(
+            onClick = { },
+            modifier = iconButtonBackground,
+        ) {
+            BsIcon(bsIcon = BootstrapIcons.Filled.CreditCard, tint = MaterialTheme.colors.onPrimary)
+        }
+    }
+}
+
 @Preview(showBackground = true)
 @Composable
 fun HomeScreen(
@@ -237,6 +309,9 @@ fun HomeScreen(
             }
             item { NormalIcons() }
             item { FilledIcons() }
+            item { BrandIcons() }
+            item { TintedIcons() }
+            item { ButtonIcons() }
         }
         IconsWithActionBar()
     }
