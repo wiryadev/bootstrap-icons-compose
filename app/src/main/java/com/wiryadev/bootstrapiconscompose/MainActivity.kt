@@ -42,7 +42,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             BootstrapIconsComposeTheme {
-                // A surface container using the 'background' color from the theme
                 Scaffold(
                     bottomBar = { IconsWithBottomBar() }
                 ) { innerPadding ->
@@ -58,7 +57,7 @@ class MainActivity : ComponentActivity() {
 fun IconsWithBottomBar() {
     CompositionLocalProvider(
         values = arrayOf(
-            LocalContentColor provides MaterialTheme.colors.background,
+            LocalContentColor provides Color.White,
             LocalAbsoluteElevation provides LocalAbsoluteElevation.current
         )
     ) {
