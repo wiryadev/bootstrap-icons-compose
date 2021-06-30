@@ -34,7 +34,7 @@ dependencyResolutionManagement {
 Add it to app level build.gradle
 ```
 dependencies {
-	implementation 'com.github.wiryadev:BootstrapIconsCompose:<version>'
+	implementation "com.github.wiryadev:BootstrapIconsCompose:latest.version"
 }
 ```
 
